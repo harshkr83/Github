@@ -1,0 +1,5 @@
+P = (int(input("What do you have left in pesos?")))
+S = (int(input("What do you have left in soles?")))
+R = (int(input("What do you have left in reais?")))
+USD =( 0.54*P + 0.29*S + 0.19*R )
+print(USD)
